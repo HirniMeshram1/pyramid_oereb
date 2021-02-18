@@ -4,7 +4,10 @@ language: python
 
 matrix:
   include:
-  - python: "3.7"
+  - python: "3.8"
+    env: PYTHON_VERSION=python3
+  - python: "3.8"
+    arch: arm64
     env: PYTHON_VERSION=python3
 
 services:
